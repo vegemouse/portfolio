@@ -1,5 +1,12 @@
+
+
 body {
   font-family: 'Open Sans', sans-serif;
+  background-color: #EEFFEE;
+}
+
+a {
+  color: #3e721b;
 }
 
 #header {
@@ -33,13 +40,21 @@ h2 {
 
 h3 {
   font-family: 'Cinzel', serif;
-  font-size: 1.5em;
+  font-size: 1.7em;
   letter-spacing: 3px;
 }
 
+h4 {
+  font-family: 'Cinzel', serif;
+  font-size: 1.3em;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+
 #content {
   background-color: #EEFFEE;
-  padding: 5px 30px;
+  padding: 20px 30px;
 }
 
 #content h2 {
@@ -60,7 +75,9 @@ h3 {
 }
 
 #projects h3 {
-  padding-bottom: 5px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+
 }
 
 #projects .thumbnail {
@@ -125,10 +142,20 @@ ol li {
   color: #FFF;
 }
 
-#other-projects ul li {
+#other-projects ol li {
   padding-top: 10px;
 }
 
 #other-projects a {
   color: #DFD;
+}
+
+.btn-primary {
+  background-color: #4d6b39;
+  border: 1px solid #46553d;
+}
+
+.btn-primary:hover {
+  background-color: #24331b;
+  border: 1px solid #24331b;
 }
