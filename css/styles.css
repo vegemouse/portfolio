@@ -1,6 +1,8 @@
 body {
   font-family: 'Open Sans', sans-serif;
   background-color: #f3f7f2;
+  color: #224422;
+  font-size: 1.4em;
 }
 
 #header {
@@ -9,6 +11,7 @@ body {
   text-align: center;
   height: 400px;
   text-transform: lowercase;
+  border-bottom: 1px solid #BCB;
 }
 
 #header h1 {
@@ -46,14 +49,9 @@ h4 {
   font-weight: bold;
 }
 
-
 #content {
   background-color: #f3f7f2;
   padding: 20px 30px;
-}
-
-#content h2 {
-
 }
 
 #about {
@@ -72,7 +70,6 @@ h4 {
 #projects h3 {
   padding-bottom: 20px;
   padding-top: 10px;
-
 }
 
 #projects .thumbnail {
@@ -85,17 +82,22 @@ h4 {
   margin-right: auto;
   margin-left: auto;
 }
+
 #social-media {
   margin-top: 20px;
 }
 
 .social-icon {
-  width: 15%;
+  width: 18%;
   padding: 5px;
 }
 
 .social-icon:hover {
-  filter: drop-shadow(2px 2px 1px #779977);
+  filter: drop-shadow(2px 4px 2px #668866);
+}
+
+.thumbnail {
+  border: 1px solid #BBDDBB;
 }
 
 .thumbnail img {
@@ -164,6 +166,16 @@ ol li {
   border: 1px solid #24331b;
 }
 
+.btn-info {
+  background-color: #99BB99;
+  border: 1px solid #88AA88;
+}
+
+.btn-info:hover {
+  background-color: #779977;
+  border: 1px solid #779977;
+}
+
 #footer {
   text-align: center;
 }
@@ -172,13 +184,20 @@ ol li {
   margin-top: 50px;
 }
 
+#skills h3 {
+  border-bottom: 1px solid #CDC;
+  padding-bottom: 10px;
+}
+
 #skills ul {
   list-style-type: none;
   list-style-position: inside;
-  padding: 0;
+  padding: 0 0 15px 0;
+  border-bottom: 1px solid #CDC;
 }
 
 #skills ul li {
   padding-bottom: 5px;
   padding-top: 5px;
+  font-size: 1.1em;
 }
