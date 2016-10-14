@@ -2,7 +2,6 @@ body {
   font-family: 'Open Sans', sans-serif;
   background-color: #f3f7f2;
   color: #224422;
-  font-size: 1.4em;
 }
 
 #header {
@@ -138,6 +137,7 @@ ol li {
   color: #BBB;
   font-style: italic;
   text-align: center;
+  margin-top: 25px;
 }
 
 #other-projects {
